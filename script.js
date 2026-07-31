@@ -10,7 +10,7 @@
 // one value in one place forces browsers to fetch fresh copies of anything
 // that changed, without renaming a single file or changing any other line
 // beyond one in index.html
-const ASSET_VERSION = window.SITE_VERSION || "1.0.2";
+const ASSET_VERSION = window.SITE_VERSION || "1.0.3";
 
 // ==================== translation data structure ====================
 // object containing all translatable strings for english and georgian.
