@@ -10,7 +10,7 @@
 // one value in one place forces browsers to fetch fresh copies of anything
 // that changed, without renaming a single file or changing any other line
 // beyond one in index.html
-const ASSET_VERSION = window.SITE_VERSION || "1.0.3";
+const ASSET_VERSION = window.SITE_VERSION || "1.0.4";
 
 // ==================== translation data structure ====================
 // object containing all translatable strings for english and georgian.
@@ -296,8 +296,8 @@ const projectsTranslation = {
     ka:[
         {
             name: "Trash Classifier",
-            filename_image: "assets/images/Caleow",
-            filename_video: "assets/videos/Caleow",
+            filename_image: "assets/images/Trasheow",
+            filename_video: "assets/videos/Trasheow",
             lang: "Python",
             langClass: "lang-python",
             description: "Trasheow არის ნაგვის კლასიფირების პროგრამა, რომელსაც შეუძლია დააფიქსიროს რა ტიპის ნაგავს ხედავს კამერა (მაგალითად: შუშა, ხე, მეტალი, ელექტრონული და ა.შ).",
