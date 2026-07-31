@@ -10,7 +10,7 @@
 // one value in one place forces browsers to fetch fresh copies of anything
 // that changed, without renaming a single file or changing any other line
 // beyond one in index.html
-const ASSET_VERSION = window.SITE_VERSION || "1.0.1";
+const ASSET_VERSION = window.SITE_VERSION || "1.0.2";
 
 // ==================== translation data structure ====================
 // object containing all translatable strings for english and georgian.
@@ -174,8 +174,8 @@ const projectsTranslation = {
         },
         {
             name: "Space Shooter",
-            filename_image: "assets/images/Space_Shooter",
-            filename_video: "assets/videos/Space_Shooter",
+            filename_image: "assets/images/Spaceow",
+            filename_video: "assets/videos/Spaceow",
             lang: "Lua",
             langClass: "lang-lua",
             description: "Spaceow is a Space Shooter game, it has multiple enemies which behave differently based on players input and position, games design was inspired by Shimeji Simulation.",
@@ -311,8 +311,8 @@ const projectsTranslation = {
         },
         {
             name: "Space Shooter",
-            filename_image: "assets/images/Space_Shooter",
-            filename_video: "assets/videos/Space_Shooter",
+            filename_image: "assets/images/Spaceow",
+            filename_video: "assets/videos/Spaceow",
             lang: "Lua",
             langClass: "lang-lua",
             description: "Spaceow არის Space Shooter სტილის 2D თამაში, სადაც მოთამაშე არის კოსმოსური თვითფრინავის მართველი და ესვრის მეტეორებს.",
