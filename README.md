@@ -1,6 +1,8 @@
-# Portfolio Website
+# My Portfolio Website
 
 My website which contains information about my expertise, background and projects. it is bilingual with dark/light theme support.
+
+View website at: https://lelouc01101000.github.io/MyPortfolio/
 
 ## File Structure
 
