@@ -295,7 +295,7 @@ const projectsTranslation = {
         {
             name: "Resumeow",
             filename_image: "assets/images/Resumeow",
-            filename_video: "assets/videos/Caleow",
+            filename_video: "assets/videos/Resumeow",
             lang: "CSS",
             langClass: "lang-CSS",
             description: "Resumeow is a website which allows you to make your own resume/cv, it is customisable with multiple designs.",
@@ -447,7 +447,7 @@ const projectsTranslation = {
         {
             name: "Resumeow",
             filename_image: "assets/images/Resumeow",
-            filename_video: "assets/videos/Caleow",
+            filename_video: "assets/videos/Resumeow",
             lang: "CSS",
             langClass: "lang-CSS",
             description: "Resumeow არის ვებსაიტი რომელსაც შეუქძლია სივის/რეზუმეს შექმნა, ვებსაიტი იძლევა საშუალებას რომ აირჩიოთ რამოდენიმე დიზაინიდან.",
