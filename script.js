@@ -4,7 +4,7 @@
  * skill tooltips, video modal interactions, and scroll-based ui effects.
  */
 
-// ==================== cache-busting asset version ====================
+// ==================== cache busting asset version ====================
 // mirrors window.SITE_VERSION, defined once in index.html's <head>.
 // appended as "?v=" to every css/js/image/video reference so that bumping
 // one value in one place forces browsers to fetch fresh copies of anything
@@ -291,6 +291,21 @@ const projectsTranslation = {
                 project: { show: true, position: "left" },
                 github: { show: true, position: "right" }
             }
+        },
+        {
+            name: "Resumeow",
+            filename_image: "assets/images/Resumeow",
+            filename_video: "assets/videos/Caleow",
+            lang: "CSS",
+            langClass: "lang-CSS",
+            description: "Resumeow is a website which allows you to make your own resume/cv, it is customisable with multiple designs.",
+            link: "https://lelouc01101000.github.io/Resumeow/",
+            linkPlaceholder: true,
+            githubLink: "https://github.com/Lelouc01101000/Resumeow",
+            links: {
+                project: { show: true, position: "left" },
+                github: { show: true, position: "right" }
+            }
         }
     ],
     ka:[
@@ -424,6 +439,21 @@ const projectsTranslation = {
             link: "https://lelouc01101000.github.io/Caleow/",
             linkPlaceholder: true,
             githubLink: "https://github.com/Lelouc01101000/Caleow",
+            links: {
+                project: { show: true, position: "left" },
+                github: { show: true, position: "right" }
+            }
+        },
+        {
+            name: "Resumeow",
+            filename_image: "assets/images/Resumeow",
+            filename_video: "assets/videos/Caleow",
+            lang: "CSS",
+            langClass: "lang-CSS",
+            description: "Resumeow არის ვებსაიტი რომელსაც შეუქძლია სივის/რეზუმეს შექმნა, ვებსაიტი იძლევა საშუალებას რომ აირჩიოთ რამოდენიმე დიზაინიდან.",
+            link: "https://lelouc01101000.github.io/Resumeow/",
+            linkPlaceholder: true,
+            githubLink: "https://github.com/Lelouc01101000/Resumeow",
             links: {
                 project: { show: true, position: "left" },
                 github: { show: true, position: "right" }
