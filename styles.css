@@ -26,6 +26,8 @@
     --js-bg: rgba(247, 223, 30, 0.15);
     --HTML-color: #ff6600;
     --HTML-bg: rgba(100, 34, 6, 0.786);
+    --CSS-color: #499fd1;
+    --CSS-bg: rgba(3, 8, 54, 0.786);
     --luau-color: #00a2ff;
     --luau-bg: rgba(0, 162, 255, 0.12);
 
@@ -1045,6 +1047,12 @@ html {
     border-color: rgba(247, 223, 30, 0.3);
 }
 
+.lang-CSS {
+    background: var(--CSS-bg);
+    color: var(--CSS-color);
+    border-color: rgba(32, 58, 206, 0.568);
+}
+
 .lang-luau {
     background: var(--luau-bg);
     color: var(--luau-color);
@@ -1063,6 +1071,7 @@ html {
 .lang-python .lang-dot { background: var(--python-color); }
 .lang-javascript .lang-dot { background: var(--js-color); }
 .lang-HTML .lang-dot { background: var(--HTML-color); }
+.lang-CSS .lang-dot { background: var(--CSS-color); }
 .lang-luau .lang-dot { background: var(--luau-color); }
 
 /* play button overlay on thumbnail */
