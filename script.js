@@ -10,7 +10,7 @@
 // one value in one place forces browsers to fetch fresh copies of anything
 // that changed, without renaming a single file or changing any other line
 // beyond one in index.html
-const ASSET_VERSION = window.SITE_VERSION || "1.0.4";
+const ASSET_VERSION = window.SITE_VERSION || "1.0.5";
 
 // ==================== translation data structure ====================
 // object containing all translatable strings for english and georgian.
@@ -306,7 +306,22 @@ const projectsTranslation = {
                 project: { show: true, position: "left" },
                 github: { show: true, position: "right" }
             }
-        }
+        },
+        {
+            name: "QReow",
+            filename_image: "assets/images/QReow",
+            filename_video: "assets/videos/QReow",
+            lang: "JavaScript",
+            langClass: "lang-javascript",
+            description: "QReow is a website which is used to generate QR code from text/link, or to decode QR code itself.",
+            link: "https://lelouc01101000.github.io/QReow/",
+            linkPlaceholder: true,
+            githubLink: "https://github.com/Lelouc01101000/QReow",
+            links: {
+                project: { show: true, position: "left" },
+                github: { show: true, position: "right" }
+            }
+        },
     ],
     ka:[
         {
@@ -458,7 +473,22 @@ const projectsTranslation = {
                 project: { show: true, position: "left" },
                 github: { show: true, position: "right" }
             }
-        }
+        },
+        {
+            name: "QReow",
+            filename_image: "assets/images/QReow",
+            filename_video: "assets/videos/QReow",
+            lang: "JavaScript",
+            langClass: "lang-javascript",
+            description: "QReow არის ვებგვერდი, რომელიც გამოიყენება ტექსტით/ლინკით QR-კოდის შესაქმნელად, ან თავად QR-კოდის გასაშიფრად.",
+            link: "https://lelouc01101000.github.io/QReow/",
+            linkPlaceholder: true,
+            githubLink: "https://github.com/Lelouc01101000/QReow",
+            links: {
+                project: { show: true, position: "left" },
+                github: { show: true, position: "right" }
+            }
+        },
     ],
 }
 
